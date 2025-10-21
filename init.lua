@@ -14,7 +14,7 @@ vim.cmd('colorscheme catppuccin')
 vim.cmd('set shiftwidth=4')
 vim.cmd('set tabstop=4')
 vim.cmd('set number')
-
+vim.lsp.enable('ccls')
 
 require("plugins.treesitter")
 require("core.keymaps")
