@@ -4,4 +4,3 @@ vim.keymap.set("t", '<Esc>', '<C-\\><C-n>', {noremap = true})
 --vim.keymap.set("t", '<Esc>', '<C-\\><C-n>', {noremap = true})
 --nnoremap <F5> :wa \| vertical botright term ++kill=term<CR>
 --tnoremap <Esc>				<C-w><S-n>
-
