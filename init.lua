@@ -12,6 +12,7 @@ Plug('mason-org/mason-lspconfig.nvim')
 Plug('neovim/nvim-lspconfig')
 Plug('nvim-lua/plenary.nvim')
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'ryanoasis/vim-devicons'
 vim.call('plug#end')
 
 vim.opt.termguicolors = true
@@ -19,6 +20,7 @@ vim.cmd('colorscheme catppuccin')
 vim.cmd('set shiftwidth=4')
 vim.cmd('set tabstop=4')
 vim.cmd('set number')
+vim.cmd ('set encoding=UTF-8')
 
 require("plugins.treesitter")
 require("plugins.mason")
