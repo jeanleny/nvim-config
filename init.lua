@@ -13,6 +13,7 @@ Plug('neovim/nvim-lspconfig')
 Plug('nvim-lua/plenary.nvim')
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 vim.call('plug#end')
 
 vim.opt.termguicolors = true
