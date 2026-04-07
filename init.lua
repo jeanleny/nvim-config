@@ -15,6 +15,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug('nvim-treesitter/nvim-treesitter')
 
+Plug('saghen/blink.cmp', { ['tag'] = 'v1.*' })
+
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -31,7 +33,7 @@ vim.cmd('colorscheme catppuccin')
 vim.cmd('set shiftwidth=4')
 vim.cmd('set tabstop=4')
 vim.cmd('set number')
-vim.cmd ('set encoding=UTF-8')
+vim.cmd('set encoding=UTF-8')
 
 require("plugins.mason")
 require("plugins.telescope")
@@ -40,3 +42,6 @@ require("core.keymaps")
 require("core.autocmd")
 require("core.lsp")
 require("plugins.treesitter")
+require("plugins.blink")
+vim.o.shell = "/usr/bin/zsh"
+
